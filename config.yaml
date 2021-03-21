@@ -1,0 +1,164 @@
+baseURL: https://github.com/Hounnou/Project2.git
+languageCode: en-us
+theme: Aafu
+params:
+  aboutme:
+    description: I am pursuing a double major in Applied Statistics and Informatics/Data Analytics and Visualization at the University of Illinois at Urbana Champaign (UIUC). My research focus is how to leverage
+      Machine Learning in Finance and International Development. I have expertise in Spatial Econometrics, Financial Econometrics, Supervised and Unsupervised learning, Reinforcement 
+      learning and Time Series Analysis with application in portfolio selection, option pricing and credit card fraud detection. I can implement these models using Python or R. Before coming to UIUC, I got a master's degree in Applied Economics from the University
+      of Oklahoma as a Fulbright scholar, with hands-on experience in climate change modelling and optimal math programming in GAMS. I speak English, French, Adja, Mina and Fon.
+    icon: fas fa-user
+    title: About Me
+  author: Darshan Baral
+  copyright: 
+  description: Website title
+  education:
+    icon: fas fa-graduation-cap
+    list:
+      - college: University of Illinois
+        dates: 2017-present
+        degree: Ph.D. candidate in Informatics/Data Analytics
+        thesis_title: 'Three Essays on Machine Learning.'
+        thesis_url: '#'
+      - college: Oklahoma State University
+        dates: 2015 - 2017
+        degree: M.S. in Applied Economics
+        thesis_title: 'Optimal selection of Best Agricultural Management Practices.'
+        thesis_url: '#'
+      - college: University of Parakou/Benin
+        dates: 2003 - 2008
+        degree: B.S. in Agricultural Engineering
+    title: Education
+  experience:
+    icon: fas fa-briefcase
+    list:
+      - company: AgReach/University of Illinois
+        dates: 2017 - *Present*
+        details: Qualtrics Survey Design, Data Collection, Data Analysis and Results Dissemination.
+        position: Research Assistant
+        url: 'https://agreach.illinois.edu/who-we-are/our-team'
+      - company: Fulbright
+        dates: 2013 - 2015
+        position: Fulbright Scholar
+        url: 'https://us.fulbrightonline.org/#&panel1-4'
+    title: Experiences
+  favicons:
+    metas: "\r\n        <link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"apple-touch-icon.png\">\r\n
+      \       <link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"favicon-32x32.png\">\r\n
+      \       <link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"favicon-16x16.png\">\r\n
+      \       <link rel=\"manifest\" href=\"site.webmanifest\">\r\n        <link rel=\"mask-icon\"
+      href=\"safari-pinned-tab.svg\" color=\"#252627\">\r\n        <link rel=\"shortcut
+      icon\" href=\"favicon.ico\">\r\n        "
+    use: yes
+  hobby:
+    icon: fas fa-gamepad
+    list:
+      - hobby: Gospel Musics
+      - hobby: Reading
+      - hobby: Obama Speeches
+    title: Hobbies
+  profile:
+    location: Urbana, IL USA
+    name: Leon Hounnou, PhD
+    photo: profile.jpg
+    tagline: Research Assistant
+  project:
+    icon: fas fa-project-diagram
+    list:
+      - description: Predictive modelling with ML.
+        title: Machine Learning
+        url: '#'
+      - description: Applied Financial Econometrics, Financial Risk Management.
+        title: Financial Analytics
+        url: '#'
+      - description: Spatial Impact Evaluation, Spatial Panel Data Modelling.
+        title: Spatial Econometrics
+        url: '#'
+      #- description: Description of the project
+      #  title: Project 4
+       # url: '#'
+    title: Interests
+  publication:
+    format:
+      - date
+      - authors
+      - title
+      - journal
+    icon: fas fa-book
+    list:
+      - authors: Leon Hounnou, B Wade Brorsen, Jon T Biermacher, Charles T Rohla
+        date: '2019'
+        journal: Journal of Plant Nutrition 42(5), 512-516.
+        title: Foliar applied zinc and the performance of pecan trees.
+        type: Journal Articles
+        url: 'https://www.tandfonline.com/doi/full/10.1080/01904167.2019.1567771'
+      - authors: Leon Hounnou
+        date: '2015'
+        journal: 
+        title: Modeling Least Cost Selection of Best Management Practices to Reduce Soil Erosion in the Fort Cobb Watershed Using Swat
+        type: Journal Articles
+        url: 'https://scholar.google.com/citations?user=o4zIiYEAAAAJ&hl=en&oi=ao'
+      - authors: Leon Hounnou, Paul McNamara
+        date: '2021'
+        journal: Journal of African Economies.
+        title: Assessing the Organizational Performance of Area Stakeholder Panels (ASPs) in Malawi A spatial Analysis Aproach.
+        type: Proceedings
+        url: '#'
+    title: Publications
+    types:
+      - Journal Articles
+      - Proceedings
+  showInAccordion:
+    - expand: yes
+      item: aboutme
+    - item: experience
+    - item: education
+    - item: publication
+    - item: project
+    - item: skill
+    - item: hobby
+  skill:
+    icon: fas fa-cogs
+    list:
+      - skill: Machine Learning, Financial Analytics.
+        skillrating: 90
+      - skill: R, Python, SAS, SQL, Stata.
+        skillrating: 85
+      - skill: GIS, SWAT (Soil and Water Assessment Tool), Latex.
+        skillrating: 85
+    panelId: skill-panel
+    title: Skills
+  social:
+    list:
+      - icon: fab fa-linkedin-in
+        title: LinkedIn
+        url: 'https://linkedin.com/in/hounnouleon'
+      #- icon: fab fa-stack-overflow
+       # title: StackOverflow
+      #  url: '#'
+      - icon: fab fa-github
+        title: GitHub
+        url: 'https://github.com/Hounnou'
+      #- icon: fab fa-twitter
+       # title: Twitter
+        #url: '#'
+      #- icon: fab fa-orcid
+      #  title: Orcid
+      #  url: '#'
+      - icon: ai ai-google-scholar
+        title: Google Scholar
+        url: 'https://scholar.google.com/citations?user=o4zIiYEAAAAJ&hl=en&oi=ao'
+      #- icon: fab fa-researchgate no
+       # title: ResearchGate
+       # url: '#'
+    title: Links
+  theme:
+    mainTheme: dark
+    showAttribute: no
+    singlePage: no
+  title: Aafu theme
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
